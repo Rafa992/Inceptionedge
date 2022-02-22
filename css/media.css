@@ -1,0 +1,422 @@
+@media (max-width: 1300px) {
+    .welcome .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .welcome__img {
+        position: static;
+        margin-bottom: 35px;
+    }
+
+    .welcome__title,
+    .welcome__title2,
+    .welcome__desc {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+    .menu__link {
+        display: inline-block;
+        margin: 10px 15px !important;
+    }
+
+    .welcome__title {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .welcome__title2 {
+        margin-bottom: 40px;
+    }
+
+    .welcome__btn {
+        margin: auto;
+    }
+
+    .users__shadow {
+        max-width: 900px;
+        width: 100%;
+    }
+
+    .canUse__img {
+        margin-right: 20px;
+    }
+
+    .plan__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card:last-of-type {
+        grid-column: span 2;
+        margin-top: 30px;
+    }
+
+    .card {
+        margin: auto;
+        padding: 40px 20px 0 20px;
+    }
+
+    .card__img {
+        margin-bottom: 20px;
+    }
+
+    .vpn__logos {
+        justify-content: center;
+    }
+
+    .vpn__logo {
+        margin: 15px;
+    }
+
+    .customer__pagination {
+        justify-content: space-around;
+    }
+
+    .Subscribe__btn {
+        margin: 0;
+    }
+
+    .footer {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .container {
+        max-width: 720px;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        margin: 30px;
+    }
+
+    .users__li .users__icon {
+        margin-left: 50px;
+    }
+
+    .users__li .users__content {
+        margin-right: 50px;
+    }
+
+    .users__li .users__icon {
+        margin-left: 50px;
+    }
+
+    .users__li .users__content {
+        margin-right: 50px;
+    }
+
+    .users__menu {
+        padding: 0 40px;
+    }
+
+    .users__icon {
+        margin-right: 30px;
+    }
+
+    .canUse .container {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .canUse {
+        margin-bottom: 70px;
+    }
+
+    .canUse__img {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .canUse__content {
+        text-align: center;
+    }
+
+    .canUse__menu {
+        display: flex;
+        align-items: flex-start;
+        margin: auto;
+        text-align: start;
+    }
+
+    .plan__cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card:last-of-type {
+        grid-column: span 1;
+        margin-top: 0;
+    }
+
+    .card {
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 40px 20px 0 20px;
+    }
+
+    .Subscribe {
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .Subscribe__title {
+        text-align: center;
+    }
+
+    .Subscribe__desc {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 150px 0 50px 0;
+    }
+
+    .footer {
+        margin-top: 180px;
+    }
+
+    .footer__logos {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer__icons {
+        max-width: 140px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footer__iconsBg {
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+
+    .footer__content {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .footer__desc {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+    .users__menu {
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        width: 100%;
+        padding: 0 20px;
+        margin-right: 0;
+    }
+
+    .users__menu li {
+        justify-content: center;
+    }
+
+    .users__li::before {
+        height: 2px;
+        width: 125px;
+        top: 0;
+    }
+
+    .users__li::after {
+        height: 2px;
+        width: 125px;
+        right: auto;
+        bottom: 0;
+    }
+
+    .users .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .canUse {
+        margin-bottom: 50px;
+    }
+
+    .welcome {
+        margin: 54px 0 50px 0;
+    }
+
+    .users__shadow {
+        max-width: 200px;
+        width: 100%;
+        height: 500px;
+    }
+
+    .customer__cards {
+        margin-bottom: 10px;
+    }
+
+    .customer__pagination {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customer__buttons {
+        margin-top: 20px;
+    }
+
+    .Subscribe__shadow {
+        height: 300px;
+        max-width: 500px;
+    }
+
+    .Subscribe {
+        padding: 15px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .footer {
+        padding-top: 50px;
+    }
+
+    .footer__logos {
+        flex-wrap: wrap;
+    }
+
+    .footer__icons {
+        margin: 0 20px;
+    }
+
+    .Subscribe {
+        padding: 15px;
+        top: -200px;
+    }
+
+    .Subscribe__title {
+        font-size: 25px;
+        line-height: 30px;
+        max-width: 300px;
+    }
+
+    .Subscribe__btn {
+        max-width: 180px;
+    }
+
+    .Subscribe__shadow {
+        height: 200px;
+    }
+
+    .canUse {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 511px) {
+    .footer__lasles {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .card__btn {
+        max-width: 110px;
+    }
+
+    .footer__logos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        margin-bottom: 30px;
+    }
+
+    .footer__icons {
+        margin-bottom: 30px;
+    }
+
+    .card2__about {
+        flex-direction: column;
+    }
+
+    .card2__ava {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card2__img {
+        margin-bottom: 10px;
+    }
+
+    .card2__desc {
+        text-align: center;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__title {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    @media (max-width: 400px) {
+        .plan__cards {
+            padding-top: 20px;
+        }
+
+        .card__title {
+            margin-bottom: 15px;
+        }
+
+        .card__link {
+            margin-left: 10px;
+            line-height: 20px;
+        }
+
+        .plan__cards .card {
+            padding: 10px;
+        }
+    }
+
+    @media (max-width: 345px) {
+        .Subscribe {
+            top: -250px;
+        }
+
+        .footer {
+            margin-top: 220px;
+        }
+    }
+
+}
